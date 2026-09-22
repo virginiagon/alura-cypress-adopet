@@ -1,6 +1,6 @@
 describe('Cadastro de usuário', () => {
     beforeEach(() => {
-        cy.visit('https://adopet-frontend-cypress.vercel.app/');
+        cy.visit('/');
         cy.get('[data-test="register-button"]').click();
     });
 
